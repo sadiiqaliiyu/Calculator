@@ -1,4 +1,25 @@
 div {
     border: 1px solid black;
+    
+}
 
+#lcd{
+    width: 200px;
+    height: 50px;
+}
+
+#calc {
+    width:300px;
+}
+
+.operators{
+    width: 50px;
+    float: righ;
+    
+}
+
+.nums{
+    width: 50px;
+    float: right;
+    
 }
