@@ -1,25 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
 div {
     border: 1px solid black;
     
 }
 
 #lcd{
-    width: 200px;
+    width: 100%;
     height: 50px;
 }
 
-#calc {
-    width:300px;
+ #calc{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 250px;
 }
 
 .operators{
-    width: 50px;
-    float: righ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
     
 }
 
-.nums{
-    width: 50px;
-    float: right;
-    
+.sign{
+    width: 33.333333%;
+    padding: 10px;
 }
+
+.nums{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 33.333333%;
+    padding: 10px;
+    text-align: center;
+}
+
+
